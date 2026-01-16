@@ -4,6 +4,16 @@ A pure frontend authentication system built using HTML, CSS, and JavaScript that
 
 This project simulates real-world authentication flow without backend integration and is ideal for learning client-side auth concepts.
 
+<br/>
+
+<p align="start">
+  <a href="https://tanmayr0x.github.io/Frontend-Auth/" target="_blank">
+    <img src="https://img.shields.io/badge/LIVE%20PREVIEW-CLICK%20HERE-blue?style=for-the-badge&logo=google-chrome" />
+  </a>
+</p>
+
+
+
 ---
 
 ### 🖼 UI Diagram
