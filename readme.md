@@ -8,7 +8,8 @@ This project simulates real-world authentication flow without backend integratio
 
 ### 🖼 UI Diagram
 
-(Paste your UI image here)
+<img width="6205" height="5852" alt="Auth" src="https://github.com/user-attachments/assets/020acd1c-ad96-47ac-89a0-48f817e142e6" />
+
 
 ---
 
