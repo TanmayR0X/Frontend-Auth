@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="signup.css" />
+    <script
+      src="https://kit.fontawesome.com/62916184bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <form class="signup-container">
+          <h3>Create an Account</h3>
+          <div class="field">
+            <label for="name"><i class="fa-solid fa-user"></i>Name</label>
+            <input id="name" placeholder="Enter Full Name" type="text" />
+          </div>
+          <div class="field">
+            <label for="email"><i class="fa-solid fa-envelope"></i>Email</label>
+            <input id="email" placeholder="Enter Email" type="email" />
+          </div>
+          <div class="field">
+            <label for="password"><i class="fa-solid fa-lock"></i>Password</label>
+            <input id="password" placeholder="Minimum 8 Characters" type="text"/>
+          </div>
+          <p class="error"></p>
+          <button class="submit" type="submit">Create Account</button>
+          <p>Already have an account? <a href="index.html">Login</a></p>
+        </form>
+      </div>
+      <div class="right">
+        <img src="assets/auth-bg.png" alt="Auth Image" />
+      </div>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</html>

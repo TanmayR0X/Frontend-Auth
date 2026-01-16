@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <script
+      src="https://kit.fontawesome.com/62916184bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <form class="login-container">
+          <h3>Good to see you again</h3>
+          <div class="field">
+            <label for="email"><i class="fa-solid fa-envelope"></i>Email</label>
+            <input id="email" placeholder="Enter Email" type="email" />
+          </div>
+          <div class="field">
+            <label for="password"
+              ><i class="fa-solid fa-lock"></i>Password</label
+            >
+            <input
+              id="password"
+              placeholder="Minimum 8 Characters"
+              type="text"
+            />
+            <a href="#">Forget Password?</a>
+          </div>
+          <p class="error"></p>
+          <button class="submit" type="submit">Login</button>
+          <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </form>
+      </div>
+      <div class="right">
+        <img src="assets/auth-bg.png" alt="Auth Image" />
+      </div>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>
